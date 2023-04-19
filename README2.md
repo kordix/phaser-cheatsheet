@@ -67,15 +67,15 @@ PRZYCISKI
                 jump();
             }
             
-                  if (keyboard.addKey('A').isDown) {
+ if (keyboard.addKey('A').isDown) {
                 enemy.setVelocityX(-160);
                 enemy.anims.play('left', true);
             }
 
-       this.input.keyboard.addListener('keydown_SPACE', function (event) {
-                console.log('fsdaddsf');
-                shoot(this);
-            }, this);
+ this.input.keyboard.addListener('keydown_SPACE', function (event) {
+      console.log('fsdaddsf');
+      shoot(this);
+   }, this);
 
     ```
 
