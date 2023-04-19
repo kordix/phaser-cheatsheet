@@ -60,3 +60,22 @@ player.setInteractive();
           this.physics.moveToObject(player, target, 100);
 ```
 
+PRZYCISKI
+```
+          cursors = this.input.keyboard.createCursorKeys();
+           if (cursors.up.isDown) {
+                jump();
+            }
+            
+                  if (keyboard.addKey('A').isDown) {
+                enemy.setVelocityX(-160);
+                enemy.anims.play('left', true);
+            }
+
+       this.input.keyboard.addListener('keydown_SPACE', function (event) {
+                console.log('fsdaddsf');
+                shoot(this);
+            }, this);
+
+    ```
+
