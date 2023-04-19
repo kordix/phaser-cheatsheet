@@ -79,4 +79,16 @@ PRZYCISKI
    }, this);
 
     ```
+    
+    CZAS
+    
+    ```
+          this.time.addEvent({
+                delay: 10000,
+                loop: true,
+                callback: function () {
+                    addDudeEnemy();
+                }
+            })
+            ```
 
