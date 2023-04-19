@@ -91,4 +91,8 @@ PRZYCISKI
                 }
             })
             ```
+            
+            ```
+                   this.physics.add.collider(dudesenemy, base1, attackbase, null, this);
+                   ```
 
