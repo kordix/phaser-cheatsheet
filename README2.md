@@ -67,7 +67,8 @@ PRZYCISKI
                 jump();
             }
             
- if (this.input.keyboard.addKey('A').isDown) {
+                var keyboard = this.input.keyboard;
+ if (keyboard.addKey('A').isDown) {
                 enemy.setVelocityX(-160);
                 enemy.anims.play('left', true);
             }
